@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>about</h1>
+</head>
+
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li>
+            <a href="/pages/products.html">Products</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">Orders</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+    </ul>
+    <p>
+        <a target="blank" href="index.html">Home</a>
+    </p>
+    <p>
+        <a href="http://127.0.0.1:5500/index.html">Home</a>
+    </p>
+
+    <table>
+        <caption>Nyitvatartás</caption>
+        <tr>
+            <th>H-P</th>
+            <th>Szombat</th>
+            <th>Vasárnap</th>
+        </tr>
+        <tr>
+            <td>9.00-21.00</td>
+            <td>9.00-24.00</td>
+            <td>9.00-18.00</td>
+        </tr>
+    </table>
+    <table>
+        <h1>Nyitvatartás</h1>
+        <tr>
+            <th>Nyitvatartás</th>
+        </tr>
+
+        <tr>
+            <td>Mon-Fri</td>
+            <td>9.00-21.00</td>
+        </tr>
+
+        <tr>
+            <td>Saturday</td>
+            <td>9.00-24.00</td>
+
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Closed</td>
+        </tr>
+
+
+    </table>
+
+
+    <table>
+        <tr>
+            <th colspan="3">Nyitvatartás</th>
+        </tr>
+        <tr>
+            <th>H-P</th>
+            <th>Szombat</th>
+            <th>Vasárnap</th>
+        </tr>
+        <tr>
+            <td>9.00-21.00</td>
+            <td>9.00-24.00</td>
+            <td>9.00-18.00</td>
+        </tr>
+
+        <table>
+
+            <h1>Nyitvatartás</h1>
+
+
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Open-Close</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mon-Fri</td>
+                    <td>9.00-21.00</td>
+                </tr>
+
+                <tr>
+                    <td>Saturday</td>
+                    <td>9.00-24.00</td>
+
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">*rendezvények miatt változhat</td>
+                </tr>
+            </tfoot>
+        </table>
+        <!-- a colspan megnyitja a sorban mindkét cellát a szöveg számára -->
+
+
+
+        <table>
+
+            <h1>Nyitvatartás</h1>
+
+
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Open-Close</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mon-Fri</td>
+                    <td rowspan="2">9.00-</td>
+                    <!--a rowspan ki fogja nyujtani a cellát az oszlopban alatta lévőre,
+                     így a abban a sorban elég két cella, mert kiszorítja -->
+                    <td>21.00</td>
+                </tr>
+
+                <tr>
+                    <td>Saturday</td>
+
+                    <td>24.00</td>
+
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+
+                    <td colspan="2">Closed</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">*rendezvények miatt változhat</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+</body>
+
+</html>
